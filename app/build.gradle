@@ -40,7 +40,12 @@ dependencies {
 
     // Displaying images
     compile 'com.github.bumptech.glide:glide:3.6.1'
-
+    // Firebase
     compile 'com.google.firebase:firebase-database:11.0.4'
+    compile 'com.google.firebase:firebase-auth:11.0.4'
+    // Firebase UI Should be the one that goes with the current version of firebase "11.0.4"
+    // but causes errors as of right now
+    compile 'com.firebaseui:firebase-ui-auth:2.2.0'
+
 }
 apply plugin: 'com.google.gms.google-services'
